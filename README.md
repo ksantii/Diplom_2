@@ -78,5 +78,18 @@
 
 ## Клонирование и запуск тестов
 
-1. **Клонирование репозитория**: git clone https://github.com/ksantii/Diplom_2.git cd Diplom_2
-2. **Запуск тестов и генерирование отчета Allure**: mvn clean test ; mvn allure:serve
+1. **Клонирование репозитория**:
+    ```bash
+    git clone https://github.com/yourusername/Diplom_2.git
+    cd Diplom_2
+    ```
+
+2. **Запуск тестов и генерация отчета Allure**:
+   Для запуска тестов и генерации отчетов используйте Maven:
+
+    ```bash
+    mvn clean test
+    mvn allure:serve
+    ```
+
+   После выполнения тестов откроется веб-страница с отчетом Allure.
